@@ -1,0 +1,117 @@
+.barf{
+  margin-bottom: 80px;
+}
+.barf__block{
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+.barf__title{
+  font-family: $second-font;
+font-weight: 700;
+font-size: 46px;
+line-height: 130%;
+letter-spacing: 0.02em;
+color: #000000;
+margin-bottom: 32px;
+}
+
+.barf__text{
+  max-width: 584px;
+  font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #434242;
+margin-bottom: 24px;
+}
+
+.barf__list-title{
+  font-weight: 600;
+font-size: 18px;
+line-height: 130%;
+color: #000000;
+margin-bottom: 16px;
+}
+
+.braf__item-list{
+  font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #434242;
+margin-bottom: 12px;
+}
+
+.braf__item-list::before{
+  vertical-align: middle;
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-repeat: no-repeat;
+  background-image: url(../../img/braf-radius.svg);
+  margin-right: 6px;
+}
+
+.barf__box-2{
+  max-width: 588px;
+}
+
+@media screen and (max-width:952px) {
+
+  .barf__box-2{
+    max-width: 488px;
+  }
+
+  .barf__title{
+  font-size: 35px;
+  margin-bottom: 26px;
+  }
+
+  .barf__text{
+    max-width: 490px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  }
+
+  .barf__list-title{
+  font-size: 15px;
+  margin-bottom: 12px;
+  }
+
+.braf__item-list{
+font-size: 12px;
+margin-bottom: 10px;
+}
+
+}
+
+@media screen and(max-width:700px) {
+  .barf__block{
+    grid-template-columns: 100%;
+  }
+
+  .barf__box-1{
+    margin: 0 auto;
+  }
+  .barf__box-2{
+    margin: 0 auto;
+}
+}
+
+@media screen and(max-width:700px){
+  .barf__box-2{
+    max-width: 300px;
+  }
+  .barf__title{
+    max-width: 327px;
+    }
+    .barf__list-title{
+     max-width: 325px;
+      }
+
+      .barf__list-title{
+        max-width: 325px;
+      }
+}
+
