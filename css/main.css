@@ -254,7 +254,7 @@ img {
   height: 800px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../../img/site-header-bg.jpg);
+  background-image: url(../img/site-header-bg.jpg);
   margin-bottom: 180px;
   position: relative;
 }
@@ -290,7 +290,7 @@ img {
   width: 260px;
   height: 101px;
   background-repeat: no-repeat;
-  background-image: url("../../img/Ellipse.svg");
+  background-image: url("../img/Ellipse.svg");
   display: inline-block;
   z-index: -1;
   position: absolute;
@@ -315,7 +315,7 @@ img {
   width: 168px;
   height: 600px;
   background-repeat: no-repeat;
-  background-image: url(../../img/ZOOOV.png);
+  background-image: url(../img/ZOOOV.png);
   display: inline-block;
   z-index: 3;
   position: absolute;
@@ -338,11 +338,11 @@ img {
     display: none;
   }
   .hero__line::before {
-    background-image: url("../../img/Ellipse-mobile.svg");
+    background-image: url("../img/Ellipse-mobile.svg");
   }
   .hero-img-block {
     width: 100px;
-    background-image: url(../../img/ZOOOV-mobile.png);
+    background-image: url(../img/ZOOOV-mobile.png);
     top: 56%;
     z-index: 1;
   }
@@ -514,37 +514,37 @@ img {
 }
 
 .goods-icon-1 {
-  background-image: url("../../img/goods-img-1.svg");
+  background-image: url("../img/goods-img-1.svg");
   background-repeat: no-repeat;
 }
 
 .goods-icon-2 {
-  background-image: url("../../img/goods-img-2.svg");
+  background-image: url("../img/goods-img-2.svg");
   background-repeat: no-repeat;
 }
 
 .goods-icon-3 {
-  background-image: url("../../img/goods-img-3.svg");
+  background-image: url("../img/goods-img-3.svg");
   background-repeat: no-repeat;
 }
 
 .goods-icon-4 {
-  background-image: url("../../img/goods-img-4.svg");
+  background-image: url("../img/goods-img-4.svg");
   background-repeat: no-repeat;
 }
 
 .goods-icon-5 {
-  background-image: url("../../img/goods-img-5.svg");
+  background-image: url("../img/goods-img-5.svg");
   background-repeat: no-repeat;
 }
 
 .goods-icon-6 {
-  background-image: url("../../img/goods-img-6.svg");
+  background-image: url("../img/goods-img-6.svg");
   background-repeat: no-repeat;
 }
 
 .goods-icon-7 {
-  background-image: url("../../img/goods-img-7.svg");
+  background-image: url("../img/goods-img-7.svg");
   background-repeat: no-repeat;
 }
 
